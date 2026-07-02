@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Party Goers — a curated guide to nightlife, clubs and live music. Find where the night goes, filter by sound, and save the ones you love." />
+  <title>Party Goers — find where the night goes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="Party Goers home">
+        <span class="logo-mark">&amp;</span>party<span class="logo-thin">goers</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#events">Events</a></li>
+          <li><a href="#howto">Tips &amp; Tricks</a></li>
+          <li><a href="#sober">Why Without Drugs</a></li>
+          <li><a href="#join">Newsletter</a></li>
+          <li><a class="nav-cta" href="#events">Browse tonight</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="wrap hero-inner reveal">
+        <p class="eyebrow">Nightlife done right</p>
+        <h1>Find where<br />the night goes.</h1>
+        <p class="hero-lead">
+          A hand-picked guide to clubs, rooftops and live rooms across Europe.
+          Filter by the sound you want, tap a night to read more, and save the ones you love.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#events">Browse tonight</a>
+          <a class="btn btn-ghost" href="#howto">Tips &amp; tricks</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <div class="wrap">
+        <div id="events-listing">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow">This week</p>
+              <h2>What's on after dark</h2>
+            </div>
+            <p class="section-note">
+              Pulled live from our listings. Tap a sound to filter — pick as many as you like — then tap a night to read more.
+            </p>
+          </div>
+
+          <div class="filter" id="filter" role="group" aria-label="Filter events by category">
+          </div>
+
+          <div class="events-meta">
+            <span id="result-count" aria-live="polite">Loading events…</span>
+            <button class="link-btn" id="show-favs" aria-pressed="false">Show saved only ♥</button>
+          </div>
+
+          <div class="grid" id="event-grid"></div>
+
+          <p class="empty-state" id="empty-state" hidden>No nights match that filter yet. Try fewer sounds.</p>
+        </div>
+
+        <article class="detail" id="event-detail" hidden aria-live="polite">
+        </article>
+      </div>
+    </section>
+
+    <section class="section howto" id="howto">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Field notes</p>
+            <h2>Go out smarter</h2>
+          </div>
+        </div>
+        <div class="tips reveal">
+          <article class="tip">
+            <span class="tip-num">01</span>
+            <h3>Arrive on the early side</h3>
+            <p>The best rooms fill fast and close their doors. Getting in an hour early usually means no queue and a better spot on the floor.</p>
+          </article>
+          <article class="tip">
+            <span class="tip-num">02</span>
+            <h3>Read the room's rules</h3>
+            <p>No-phone floors and one-in-one-out policies exist for a reason. Respect them and the night stays good for everyone.</p>
+          </article>
+          <article class="tip">
+            <span class="tip-num">03</span>
+            <h3>Plan the way home first</h3>
+            <p>Know your last train or a night bus before you go in. A sorted exit means you can actually stay until the good part.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sober" id="sober">
+      <div class="wrap sober-inner">
+        <figure class="sober-media reveal">
+          <img src="assets/img/bar.jpg" alt="A quiet bar counter lit by warm lamps before the crowd arrives" loading="lazy" />
+          <figcaption>The best nights are the ones you remember.</figcaption>
+        </figure>
+        <div class="sober-copy reveal">
+          <p class="eyebrow">Why without drugs</p>
+          <h2>You don't need anything but the music.</h2>
+          <p>
+            The scene we care about runs on sound, people and a room that feels alive — not on whatever's
+            being passed around. Every night we list is picked because the atmosphere carries itself.
+          </p>
+          <ul class="check-list">
+            <li>Free water on every listed floor</li>
+            <li>Venues with real security and safe-exit policies</li>
+            <li>Zero tolerance for pushing anything but records</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="wrap join-inner reveal">
+        <div class="join-copy">
+          <h2>One email. Every Thursday.</h2>
+          <p>The week's nights, sent before tickets sell out. No spam, no partners, unsubscribe in one click.</p>
+        </div>
+        <form class="join-form" id="join-form" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@email.com" required />
+          <button class="btn btn-primary" type="submit">Sign up</button>
+          <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="logo" href="#top"><span class="logo-mark">&amp;</span>party<span class="logo-thin">goers</span></a>
+        <p>An independent guide to nightlife done right.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#howto">Tips &amp; tricks</a></li>
+            <li><a href="#sober">Why without drugs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#join" rel="noopener">Instagram</a></li>
+            <li><a href="#join" rel="noopener">Resident Advisor</a></li>
+            <li><a href="#join" rel="noopener">Newsletter</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>&copy; <span id="year"></span> Party Goers. Built for the exam, made for the floor.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Back to top" hidden>↑</button>
+
+  <aside class="cookie" id="cookie" role="dialog" aria-label="Cookie notice" hidden>
+    <p>We use local storage to remember your saved nights and this notice — nothing leaves your device.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-primary btn-sm" id="cookie-accept">Got it</button>
+    </div>
+  </aside>
+
+  <script src="main.js"></script>
+</body>
+</html>

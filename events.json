@@ -1,0 +1,185 @@
+{
+  "updated": "2026-07-02",
+  "events": [
+    {
+      "id": "ev-01",
+      "title": "Concrete Hours",
+      "category": "Techno",
+      "city": "Berlin",
+      "venue": "Kraftwerk Halle",
+      "date": "2026-07-11",
+      "time": "23:00",
+      "price": 22,
+      "image": "assets/img/techno.jpg",
+      "blurb": "Six hours of stripped-back industrial techno inside a decommissioned power plant.",
+      "featured": true,
+      "article": {
+        "lead": "Six hours of stripped-back industrial techno inside a decommissioned power plant, with fog, steel and a Function-One rig that you feel before you hear.",
+        "sections": [
+          { "heading": "The room", "text": "Kraftwerk is a raw concrete hall the size of an aircraft hangar. There is almost no decoration — the building is the show. Sound bounces off bare walls, so the low end is enormous and the light rig does all the storytelling." },
+          { "heading": "Know before you go", "text": "Doors are strict and the queue moves slowly, so arrive before midnight. Cloakroom is cash only, phones are discouraged on the floor, and the best sound sits dead-centre under the main rig." }
+        ]
+      }
+    },
+    {
+      "id": "ev-02",
+      "title": "Golden Hour Rooftop",
+      "category": "Rooftop",
+      "city": "Lisbon",
+      "venue": "Miradouro Bar",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "price": 15,
+      "image": "assets/img/rooftop.jpg",
+      "blurb": "Sunset sets over the river with slow house and cold vermouth.",
+      "featured": true,
+      "article": {
+        "lead": "Sunset sets over the river with slow, sun-warmed house and cold vermouth. The kind of early night that turns into a late one before you notice.",
+        "sections": [
+          { "heading": "Why go early", "text": "The magic is the light. Getting up to the roof an hour before sunset means you catch the sky turning over the Tejo while the first records are still gentle." },
+          { "heading": "Bring a layer", "text": "Lisbon rooftops cool fast once the sun drops and the wind comes off the water. A light jacket is the difference between staying for the peak and leaving early." }
+        ]
+      }
+    },
+    {
+      "id": "ev-03",
+      "title": "Deep End",
+      "category": "House",
+      "city": "Amsterdam",
+      "venue": "Het Pakhuis",
+      "date": "2026-07-13",
+      "time": "22:00",
+      "price": 18,
+      "image": "assets/img/house.jpg",
+      "blurb": "Warm, vocal-led deep house in a canal-side warehouse.",
+      "featured": false,
+      "article": {
+        "lead": "Warm, vocal-led deep house in a canal-side warehouse. A residents-only night — no headliner, no filler, just a room that reads the crowd.",
+        "sections": [
+          { "heading": "Residents first", "text": "There is no big name on the flyer on purpose. The DJs play here every month, they know the sound system, and they build a set over hours rather than chasing one big drop." },
+          { "heading": "The setting", "text": "An old canal warehouse with wooden beams and one long bar. Capacity is small, so it sells out quietly — grab a ticket in advance rather than hoping for the door." }
+        ]
+      }
+    },
+    {
+      "id": "ev-04",
+      "title": "Basement Cypher",
+      "category": "Hip-Hop",
+      "city": "London",
+      "venue": "The Vault E2",
+      "date": "2026-07-15",
+      "time": "21:00",
+      "price": 12,
+      "image": "assets/img/hiphop.jpg",
+      "blurb": "Open-mic cyphers, boom-bap DJs and a live band that never plays the same set twice.",
+      "featured": false,
+      "article": {
+        "lead": "Open-mic cyphers, boom-bap DJs and a live band that never plays the same set twice. Community first, ego at the door.",
+        "sections": [
+          { "heading": "How the night runs", "text": "The band opens, the DJ keeps it moving, and anyone can put their name down for the cypher. Newcomers are welcome — the crowd carries first-timers rather than judging them." },
+          { "heading": "Get there for the band", "text": "The live set at the top of the night is the best-kept secret. It is looser and warmer than the headline slot, and it sets the tone for everything after." }
+        ]
+      }
+    },
+    {
+      "id": "ev-05",
+      "title": "Late Jazz Room",
+      "category": "Jazz",
+      "city": "Paris",
+      "venue": "Cave Saint-Michel",
+      "date": "2026-07-16",
+      "time": "20:30",
+      "price": 20,
+      "image": "assets/img/jazz.jpg",
+      "blurb": "A candlelit cellar, a trio that leans into the small hours, and a no-phones policy.",
+      "featured": false,
+      "article": {
+        "lead": "A candlelit stone cellar, a trio that leans into the small hours, and a strict no-phones-on-the-floor policy that everyone quietly loves.",
+        "sections": [
+          { "heading": "Listen, don't film", "text": "Phones stay in pockets here, and the room is better for it. Without a wall of screens the music feels close, and the players respond to a crowd that is actually present." },
+          { "heading": "Two sets a night", "text": "There is an early set and a late set. The late one is where the trio stretches out and takes risks — worth staying up for if you can." }
+        ]
+      }
+    },
+    {
+      "id": "ev-06",
+      "title": "Analog Disco",
+      "category": "Disco",
+      "city": "Milan",
+      "venue": "Sala Venezia",
+      "date": "2026-07-18",
+      "time": "23:30",
+      "price": 16,
+      "image": "assets/img/disco.jpg",
+      "blurb": "All-vinyl disco and Italo cuts on a mirror-ball floor.",
+      "featured": true,
+      "article": {
+        "lead": "All-vinyl disco and Italo cuts on a mirror-ball floor. Dress like it's 1979 and you'll fit right in.",
+        "sections": [
+          { "heading": "Vinyl only", "text": "Every record is played off wax, so expect the occasional pause between tracks — it's part of the charm. The selection digs deep into Italo, boogie and rare disco edits." },
+          { "heading": "Dress the part", "text": "This is the one night where effort is rewarded. The floor leans into the look, and a bit of sparkle goes a long way under that mirror ball." }
+        ]
+      }
+    },
+    {
+      "id": "ev-07",
+      "title": "Signal Lost",
+      "category": "Underground",
+      "city": "Tbilisi",
+      "venue": "Left Bank",
+      "date": "2026-07-19",
+      "time": "00:00",
+      "price": 14,
+      "image": "assets/img/underground.jpg",
+      "blurb": "Address sent by text two hours before doors. Raw concrete, one strobe, serious sound.",
+      "featured": false,
+      "article": {
+        "lead": "The address arrives by text two hours before doors. A raw concrete room, one strobe, and a very serious sound system carry the whole night.",
+        "sections": [
+          { "heading": "How to get in", "text": "Register on the night and the location drops to your phone late. It keeps the crowd small and switched-on, and it means no two editions happen in the same place twice." },
+          { "heading": "What to expect", "text": "Minimal decoration, maximal sound. This is a night for people who come to listen and move, not to be seen — leave the expectations of a big club at home." }
+        ]
+      }
+    },
+    {
+      "id": "ev-08",
+      "title": "First Chords",
+      "category": "Live",
+      "city": "Manchester",
+      "venue": "Northern Stage",
+      "date": "2026-07-20",
+      "time": "19:00",
+      "price": 25,
+      "image": "assets/img/live.jpg",
+      "blurb": "Three rising bands, one small stage, and a crowd close enough to read the setlist.",
+      "featured": false,
+      "article": {
+        "lead": "Three rising bands, one small stage, and a crowd close enough to read the setlist. Real amps, real sweat, no barrier.",
+        "sections": [
+          { "heading": "Catch them early", "text": "Every band on this bill is on the way up. Seeing them now, in a room this size, is the story you tell in a few years when they're playing somewhere far bigger." },
+          { "heading": "The room", "text": "A refitted theatre with a low stage and a steep back, so sightlines are good from anywhere. Sound is dialled for guitars, not for a DJ — it hits differently." }
+        ]
+      }
+    },
+    {
+      "id": "ev-09",
+      "title": "Warehouse 12",
+      "category": "Techno",
+      "city": "Rotterdam",
+      "venue": "Dok 12",
+      "date": "2026-07-25",
+      "time": "22:30",
+      "price": 19,
+      "image": "assets/img/warehouse.jpg",
+      "blurb": "A port-side warehouse cleared for one night of hypnotic, driving techno.",
+      "featured": false,
+      "article": {
+        "lead": "A port-side warehouse cleared for one night of hypnotic, driving techno. Doors close at 1am — arrive early or miss it.",
+        "sections": [
+          { "heading": "Hard doors", "text": "The doors genuinely lock at 1am, no exceptions, to keep the room controlled for the people already inside. Plan your night around getting there before then." },
+          { "heading": "The sound", "text": "A single huge room by the docks, with the sound system aimed down the length of it. The result is a long, hypnotic build rather than a night of peaks and lulls." }
+        ]
+      }
+    }
+  ]
+}
